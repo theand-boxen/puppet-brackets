@@ -1,7 +1,7 @@
 # Install Brackets
-class brackets ($version='26') {
-  package { "brackets-sprint-${version}-OSX":
+class brackets ($version='1.0') {
+  package { "brackets-release-${version}-OSX":
     provider => 'appdmg',
-    source   => "http://download.brackets.io/file.cfm?platform=OSX&build=${version}&_=.dmg",
+    source   => "https://github.com/adobe/brackets/releases/download/release-${version}/Brackets.Release.${version}.dmg",
   }
 }

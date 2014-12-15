@@ -7,8 +7,8 @@ describe 'brackets' do
 
     it { should contain_class('brackets') }
     
-    it { should contain_package('Brackets Sprint 25').with_provider('appdmg') }
-    it { should contain_package('Brackets Sprint 25').with_source('http://download.brackets.io/file.cfm?platform=OSX&build=25&_=.dmg') }
+    it { should contain_package('Brackets Release 1.0').with_provider('appdmg') }
+    it { should contain_package('Brackets Release 1.0').with_source('https://github.com/adobe/brackets/releases/download/release-1.0/Brackets.Release.1.0.dmg') }
   end
 
 end

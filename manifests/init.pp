@@ -1,7 +1,7 @@
 # Install Brackets
-class brackets ($version='1.3') {
+class brackets ($version='1.5') {
   package { "brackets-release-${version}-OSX":
     provider => 'appdmg',
-    source   => "https://github.com/adobe/brackets/releases/download/release-1.3%2Beb4/Brackets.1.3.Extract.dmg",
+    source   => "https://github.com/adobe/brackets/releases/download/release-1.5/Brackets.Release.1.5.dmg",
   }
 }
